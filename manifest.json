@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "SoloSession",
+  "version": "1.0",
+  "description": "Ouvre des onglets avec des sessions temporaires isolées.",
+  "permissions": [
+    "cookies",
+    "storage",
+    "tabs",
+    "contextMenus",
+    "declarativeNetRequest"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {},
+  "host_permissions": ["*://*/*"]
+}
